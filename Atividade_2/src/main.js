@@ -1,33 +1,5 @@
 import './style.css';
-
-const Produtos_do_banco = [
-  {
-    id: 1,
-    nome: 'Morango',
-    preco: 25.00,
-    metrica: 'kg',
-    quantidade: 1,
-    imagem:"./Bandeija_Morangos.jpg"
-  },
-  {
-    id: 2,
-    nome: 'Molho de Beterraba',
-    preco: 3.50,
-    metrica: 'molho',
-    quantidade: 1,
-    imagem:"./Beterraba_molho.jpeg"
-  },
-  {
-    id: 3,
-    nome: 'Repolho',
-    preco: 5.00,
-    metrica: 'unidade',
-    quantidade: 1,
-    imagem:"./Repolho.jpg"
-  }
-]
-
-const itens_vitrine = document.getElementById('vitrine');
+import Produtos_do_banco from './modules/produtos.js';
 
 Produtos_do_banco.forEach((produto) => {
     itens_vitrine.innerHTML += `
@@ -35,7 +7,7 @@ Produtos_do_banco.forEach((produto) => {
         <img src="${produto.imagem}" alt="${produto.nome}">
         <h2>${produto.nome}</h2>
         <p>Preço: R$ ${produto.preco.toFixed(2)} / ${produto.metrica}</p>
-        <button class="btn-adicionar"  data-id="${produto.id}">Adicionar</button>
+        <button class="btn-adicionar" data-id="${produto.id}">Adicionar</button>
     </div>
     `;
 });

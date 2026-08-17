@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Morango",
+    "preco": 25.00,
+    "metrica": "kg",
+    "quantidade": 1,
+    "imagem": "/Bandeija_Morangos.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Molho de Beterraba",
+    "preco": 3.50,
+    "metrica": "molho",
+    "quantidade": 1,
+    "imagem": "/Beterraba_molho.jpeg"
+  },
+  {
+    "id": 3,
+    "nome": "Repolho",
+    "preco": 5.00,
+    "metrica": "unidade",
+    "quantidade": 1,
+    "imagem": "/Repolho.jpg"
+  }
+]
