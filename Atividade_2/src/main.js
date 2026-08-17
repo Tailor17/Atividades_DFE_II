@@ -1,4 +1,4 @@
-import './style.css';
+import '../public/css/style.css';
 import Produtos_do_banco from './modules/produtos.json';
 
 const itens_vitrine = document.getElementById('vitrine');

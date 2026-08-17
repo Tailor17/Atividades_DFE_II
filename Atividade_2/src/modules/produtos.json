@@ -5,7 +5,7 @@
     "preco": 25.00,
     "metrica": "kg",
     "quantidade": 1,
-    "imagem": "/Bandeija_Morangos.jpg"
+    "imagem": "/images/Bandeija_Morangos.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "preco": 3.50,
     "metrica": "molho",
     "quantidade": 1,
-    "imagem": "/Beterraba_molho.jpeg"
+    "imagem": "/images/Beterraba_molho.jpeg"
   },
   {
     "id": 3,
@@ -21,6 +21,30 @@
     "preco": 5.00,
     "metrica": "unidade",
     "quantidade": 1,
-    "imagem": "/Repolho.jpg"
+    "imagem": "/images/Repolho.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Couve",
+    "preco": 3.00,
+    "metrica": "molho",
+    "quantidade": 1,
+    "imagem": "/images/couve.webp"
+  },
+  {
+    "id": 5,
+    "nome": "Couve-Flor",
+    "preco": 4.00,
+    "metrica": "unidade",
+    "quantidade": 1,
+    "imagem": "/images/couve-flor.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Tempero Verde",
+    "preco": 2.50,
+    "metrica": "molho",
+    "quantidade": 1,
+    "imagem": "/images/tempero.jpeg"
   }
 ]
