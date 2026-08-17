@@ -1,5 +1,7 @@
 import './style.css';
-import Produtos_do_banco from './modules/produtos.js';
+import Produtos_do_banco from './modules/produtos.json';
+
+const itens_vitrine = document.getElementById('vitrine');
 
 Produtos_do_banco.forEach((produto) => {
     itens_vitrine.innerHTML += `
