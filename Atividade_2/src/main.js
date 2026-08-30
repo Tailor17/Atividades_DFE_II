@@ -7,3 +7,5 @@ renderizarVitrine(Produtos_do_banco, 'vitrine');
 
 iniciarCarrinho();
 
+
+

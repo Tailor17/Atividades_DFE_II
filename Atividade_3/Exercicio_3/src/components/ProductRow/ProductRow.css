@@ -1,0 +1,14 @@
+
+.product-row td {
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee; 
+}
+
+.product-row:hover td {
+  background-color: #f9f9f9; 
+}
+
+.out-of-stock {
+  color: #d9534f;
+  font-weight: 500;
+}

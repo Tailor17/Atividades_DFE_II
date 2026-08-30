@@ -1,0 +1,9 @@
+/* ProductCategoryRow/ProductCategoryRow.css */
+.category-row th {
+  padding: 12px 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: #0056b3;
+  background-color: #e9f2ff;
+  font-size: 18px;
+}

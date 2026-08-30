@@ -14,3 +14,5 @@ export function renderizarVitrine(listaDeProdutos, idDoContainer) {
         `;
     });
 }
+
+//utilizar MAP ao invez de forEach para acostumar
