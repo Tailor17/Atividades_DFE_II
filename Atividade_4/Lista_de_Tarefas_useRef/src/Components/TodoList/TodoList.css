@@ -1,0 +1,44 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.todo-container h1 {
+  margin-bottom: 20px;
+  color: #1c3d5a;
+}
+
+.todo-container textarea {
+  width: 100%;
+  max-width: 400px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.todo-container button {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #1c3d5a;
+  margin-bottom: 30px;
+}
+
+.todo-container button:hover {
+  background-color: #e2e6ea;
+}
+
+.todo-container h2 {
+  color: #1c3d5a;
+  margin-bottom: 20px;
+}
